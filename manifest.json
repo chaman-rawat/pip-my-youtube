@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "PIP My Youtube",
+  "description": "Add a button to switch to picture in picture on Youtube when viewing comments.",
+  "version": "1.0",
+  "icons": {
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["https://www.youtube.com/watch*"]
+    }
+  ]
+}
