@@ -6,6 +6,13 @@ if ('pictureInPictureEnabled' in document) {
   pipButtonElement.style.right = "2rem";
   pipButtonElement.style.bottom = "2rem";
   pipButtonElement.style.visibility = "hidden";
+  pipButtonElement.style.width = "10rem";
+  pipButtonElement.style.height = "3.5rem";
+  pipButtonElement.style.borderRadius = "20px";
+  pipButtonElement.style.border = "1px solid";
+  pipButtonElement.style.backgroundColor = "#212121";
+  pipButtonElement.style.color = "#f1f1f1";
+  pipButtonElement.style.cursor = "pointer";
   document.body.appendChild(pipButtonElement);
 
   const isVideoVisible = (element) => {
